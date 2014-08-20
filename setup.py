@@ -10,7 +10,7 @@ with open('requirements.txt') as f:
 setup(
     name='explain',
     description="Super simple create table statement dumping.",
-    version='0.1.0',
+    version='0.1.1',
     long_description=__doc__,
     packages=find_packages(),
     include_package_data=True,
