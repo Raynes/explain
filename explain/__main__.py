@@ -10,6 +10,7 @@ from explain.dump import dump
               help="Port of the postgres instance.")
 @click.option('--user', '-u', help="User of postgres instance.")
 @click.option('--password', '-P', prompt=True, hide_input=True,
+              envvar='PGPASSWORD',
               help="Password of the postgres instance.")
 @click.option('--db', '-d', help="Database on the postgres instance.")
 def explain(table, host, port, user, password, db):
