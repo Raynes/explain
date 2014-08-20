@@ -12,6 +12,14 @@ most of the time.
 
 ## Usage
 
+First of all install the sucker:
+
+```
+pip install explain
+```
+
+Then use it like this:
+
 ```
 $ explain -h mydb.com -u admin -d thedb foo.bar
 Password:
